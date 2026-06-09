@@ -1,0 +1,148 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#12040a;
+    color:white;
+    text-align:center;
+    overflow-x:hidden;
+}
+
+.hidden{
+    display:none !important;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    background:linear-gradient(#3b0000,#12040a);
+}
+
+.hero h1{
+    font-size:3rem;
+}
+
+.hero p{
+    max-width:600px;
+    line-height:1.8;
+}
+
+button{
+    padding:15px 25px;
+    border:none;
+    border-radius:12px;
+    background:#800020;
+    color:white;
+    cursor:pointer;
+    font-size:18px;
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+.chapter{
+    max-width:900px;
+    margin:auto;
+    padding:70px 20px;
+}
+
+.chapter img{
+    width:320px;
+    max-width:90%;
+    border-radius:20px;
+}
+
+.chapter p{
+    line-height:1.8;
+}
+
+.card{
+    width:80%;
+    margin:15px auto;
+    padding:20px;
+    border-radius:15px;
+    background:#800020;
+}
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.gallery img{
+    width:250px;
+    border-radius:15px;
+}
+
+.facts{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.facts div{
+    background:#800020;
+    padding:15px;
+    border-radius:15px;
+}
+
+.letter{
+    background:rgba(255,255,255,.05);
+    padding:30px;
+    border-radius:20px;
+}
+
+.final{
+    margin-bottom:100px;
+}
+
+.popup{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.85);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:9999;
+}
+
+.popup-content{
+    background:white;
+    color:black;
+    width:90%;
+    max-width:500px;
+    padding:30px;
+    border-radius:20px;
+}
+
+.popup-content button{
+    margin-top:20px;
+}
+
+#final-screen{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+#final-screen h1{
+    font-size:4rem;
+}
+
+#final-screen h3{
+    color:#ff6b9d;
+}
